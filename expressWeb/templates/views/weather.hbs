@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container mt-5 mb-4">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" id="input-value" placeholder="Search Your City..."
+                aria-label="Search" autocomplete="off" />
+            <button class="btn btn-outline-danger" id="submit-btn" type="submit">
+                Search
+            </button>
+        </form>
+    </div>
+
+    <center>
+        <div class="container">
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header" id="card-header">Tuesday March 20 </div>
+                <div class="card-body">
+                    <h5 class="card-title" id="card-title">Your Data Here</h5>
+                    <p class="card-text" id="location"></p>
+                    <p class="card-text" id="temp"></p>
+                    <p class="card-text" id="min-temp"></p>
+                    <p class="card-text" id="max-temp"></p>
+                    <p class="card-text" id="speed"></p>
+                    <p class="card-text" id="degree"></p>
+                    <p class="card-text" id="humidity"></p>
+                </div>
+            </div>
+        </div>
+    </center>
+
+
+
+    {{>footer}}
+    {{>footerlinks}}
+</body>
+
+</html>

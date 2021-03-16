@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headlinks}}
+</head>
+
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid main_header mt-3">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 main_header_left">
+                        <h1 class="mb-4">Welcome to weather app</h1>
+                        <h3>This is about <span>Weather App</span> Info Of Your City.</h3>
+                        <a href="/weather"><button class="btn btn-secondary mt-5">Get Weather</button></a>
+                    </div>
+                    <div class="col-md-6 col-12 main_header_right">
+                        <figure class="figure">
+                            <img src="images/about.jpg" class="figure-img img-fluid rounded" alt="..." />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+    {{>footerlinks}}
+</body>
+
+</html>
